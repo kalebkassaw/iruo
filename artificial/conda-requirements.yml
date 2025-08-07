@@ -1,0 +1,38 @@
+name: iruo
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - ipython=8.3.0
+  - matplotlib=3.5.1
+  - numpy=1.22.3
+  - pyyaml=6.0
+  - scikit-image=0.19.3
+  - scikit-learn=1.0.2
+  - scipy=1.7.3
+  - seaborn=0.11.2
+  - pip:
+    - addict==2.4.0
+    - charset-normalizer==2.0.12
+    - click==7.1.2
+    - colorama==0.4.4
+    - cython==0.29.30
+    - fonttools==4.33.3
+    - idna==3.3
+    - importlib-metadata==4.11.3
+    - markdown==3.3.6
+    - mmcv-full==1.5.0
+    - model-index==0.1.11
+    - opencv-python==4.5.5.64
+    - openmim==0.1.5
+    - ordered-set==4.1.0
+    - pandas==1.4.2
+    - pycocotools==2.0
+    - pyparsing==3.0.8
+    - pytz==2022.1
+    - requests==2.27.1
+    - tabulate==0.8.9
+    - urllib3==1.26.9
+    - yapf==0.32.0
+    - zipp==3.8.0
